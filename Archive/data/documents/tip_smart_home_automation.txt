@@ -1,0 +1,35 @@
+Smart Home Automation Tips
+==========================
+
+Automation is useful when it removes a daily decision. It is wasteful
+when it adds always-on hubs and gadgets that sip 5–15 W forever.
+
+High-ROI automations
+- EV wallbox schedule. The single best automation in a solar home.
+  Default: start under the solar plateau; fallback to 23:00 off-peak.
+- Dishwasher and washer delay-start. One button, every cycle.
+- Storage geyser timer. Heat at midday, off overnight unless a morning
+  boost is actually needed.
+- Occupancy-based lighting and plug strips in the office and TV unit.
+- HVAC scenes: "away" (+2°C), "pre-cool" (solar window), "peak coast".
+
+Rules that work without a fancy platform
+1. If irradiance > 500 W/m² and the tariff is not on-peak, release
+   flexible loads (EV, pump, geyser).
+2. If the tariff flips to on-peak, pause flexible loads and hold HVAC.
+3. If the forecast for tomorrow is overcast, pre-charge the EV tonight.
+
+What not to automate
+- Cooking. People eat when they eat.
+- Medical devices and the refrigerator.
+- Security lighting that needs to be predictable.
+
+Standby tax
+A house with ten "smart" bulbs, two speakers, a streaming stick and a
+hub can waste 30–60 kWh/month on standby. Audit plugs once a quarter.
+If an automation needs a cloud round-trip to turn off a lamp, prefer a
+local timer.
+
+EcoHome can be the brain even when the house is dumb: it emits a
+schedule you load into the wallbox and the appliance delay-start. You
+do not need a full home bus to capture most of the saving.

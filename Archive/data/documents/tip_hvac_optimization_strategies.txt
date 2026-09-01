@@ -1,0 +1,37 @@
+HVAC Optimization Strategies
+============================
+
+Air conditioning dominates summer bills in warm climates. Treat the HVAC
+system as a controllable thermal battery, not an on/off switch.
+
+Strategy 1 — Set-point ladder
+Hold 26–27°C when people are home and awake. Drop only the occupied
+bedrooms at night. Each extra degree of cooling costs about 6–8% more
+compressor energy. Pair the higher set-point with ceiling fans so skin
+comfort stays acceptable.
+
+Strategy 2 — Pre-cool before the tariff peak
+If 18:00–23:00 is on-peak, run a 1°C deeper cool between 14:00 and 17:30
+while solar is still helping. Then coast. Do not slam the unit off at
+18:00 and recover at 20°C later; the spike erases the saving.
+
+Strategy 3 — Zoning and doors
+Close doors to unused rooms. A 1.5-ton split trying to cool a whole
+floor through open doorways short-cycles and never reaches set-point.
+
+Strategy 4 — Envelope first
+West-facing glass is a furnace after 15:00. Reflective film, external
+shade and curtains beat any thermostat trick. Seal obvious gaps around
+window AC sleeves.
+
+Strategy 5 — Maintenance calendar
+Wash filters every 3–4 weeks in the dusty season. Rinse the outdoor
+coil before peak summer. A dirty coil is a hidden 10–15% tariff.
+
+Strategy 6 — Don't fight humidity with temperature
+On monsoon afternoons use dry / dehumidify mode rather than dropping
+to 22°C. Latent load is the real discomfort; sensible cooling is the
+expensive way to treat it.
+
+When EcoHome recommends a thermostat number, it is combining this
+ladder with the day's peak-rate hours and the forecast max temperature.

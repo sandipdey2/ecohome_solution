@@ -1,0 +1,38 @@
+Pool Pump Best Practices
+========================
+
+A single-speed pool pump is often the third-largest load in a home
+that has a pool, quietly drawing 1–2 kW for 8–12 hours. It is also
+one of the most flexible loads: water does not care whether it was
+filtered at 11:00 or at 21:00.
+
+Scheduling
+- Default run window: the solar plateau, 10:00–16:00.
+- If the forecast is heavily overcast, slide the run into off-peak
+  overnight rather than parking it on the evening peak.
+- Avoid 18:00–23:00 unless water quality has slipped and you need an
+  emergency extra cycle.
+
+Runtime, not just clock time
+Most residential pools stay clean on 6–8 hours a day in cool weather
+and 8–10 in hot weather. Running 12 hours "because that is how the
+builder left it" is common and wasteful. Cut runtime first, then
+shift what remains under solar.
+
+Variable-speed upgrades
+A VSD pump at 1,200–1,800 RPM can match the turnover of a
+single-speed pump at a third of the energy. Payback is often 18–36
+months at TOU tariffs. If EcoHome is asked for ROI on a pump
+replacement, use that band and the household's actual daily hours.
+
+Maintenance that saves kWh
+- A clogged skimmer or dirty filter raises head pressure and energy
+  use. Check weekly in dusty / leaf-heavy seasons.
+- Leaking valves that force the pump to work against a closed path
+  are an easy miss.
+
+Safety
+Never disable a pump that is also driving a solar water heater loop
+or a required sanitizer system without confirming the linked system
+can idle. Optimization stops at the point where water quality or
+equipment warranty is at risk.

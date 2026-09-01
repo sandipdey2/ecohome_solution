@@ -1,0 +1,11 @@
+.env
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+data/energy_data.db
+data/vectorstore/
+.mlruns/
+.env
+.venv/
+__pycache__/
+.ipynb_checkpoints/

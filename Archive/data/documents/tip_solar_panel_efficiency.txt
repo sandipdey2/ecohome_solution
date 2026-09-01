@@ -1,0 +1,32 @@
+Rooftop Solar Efficiency and Self-Consumption
+=============================================
+
+A 5 kW array in Bengaluru, installed with a realistic 0.76–0.80
+performance ratio, produces roughly 18–24 kWh on a clear dry-season day
+and 8–14 kWh on a monsoon overcast day. Annual specific yield for a
+well-sited south-facing roof is typically 1,400–1,600 kWh/kWp.
+
+What actually moves the needle
+- Soiling: Bengaluru dust and construction grit can cut yield 8–15%
+  between cleanings. A monthly rinse in the dry season is high-ROI.
+- Temperature: Module efficiency drops ~0.4%/°C above 25°C. Roof-mount
+  standoffs that allow airflow under the array beat flush mounts.
+- Shade: One shaded cell in a poorly designed string can kneecap a
+  whole channel. Module-level power electronics help if trees or a
+  water tank throw a moving shadow.
+- Inverter clipping: A 5 kW array on a 4 kW inverter will clip on the
+  best hours. That is acceptable if those hours are rare; it is not
+  acceptable if you sized the inverter too small for a wide roof.
+
+Self-consumption versus export
+Retail import tariffs are several times typical net-metering or
+gross-metering export credits. Using a midday kWh in the house is
+almost always more valuable than exporting it. The EcoHome advisor
+therefore treats "shift load under the solar curve" as the default
+strategy and "export and re-import later" as the fallback.
+
+Forecasting
+Cloud cover and irradiance drive the next-day plan. A forecast that
+calls for <200 W/m² through the solar window means: do not count on
+PV for the EV; schedule the car overnight instead. A forecast of
+700–900 W/m² means: park the flexible loads under the 11:00–14:00 peak.

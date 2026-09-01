@@ -1,0 +1,35 @@
+HVAC and Thermostat Optimization
+================================
+
+In a warm climate the air-conditioner is usually the #1 or #2 annual
+kWh consumer, second only to an EV that charges at home. Unlike an EV,
+HVAC is only partly flexible — people want the room comfortable when
+they are in it — but thermal mass still lets you move a useful slice
+of compressor runtime.
+
+Set-point discipline
+- Each extra degree of cooling costs roughly 6–8% more energy on a
+  typical split AC. 26°C with ceiling fans is the comfort/cost sweet
+  spot for most Indian households; 22–23°C is an expensive habit.
+- Use "dry" / dehumidify mode on muggy monsoon afternoons rather than
+  slashing the set-point. Latent load is the real enemy then.
+
+Pre-cooling before the tariff peak
+If 18:00–23:00 is on-peak, drop the set-point by 1°C between 15:00 and
+17:30 (solar still helping, tariff not yet peaked) and let the building
+coast. The compressor then cycles less during the expensive window.
+This works best in apartments with some thermal mass and closed
+curtains; it works poorly in a west-facing glass box.
+
+Maintenance
+- Clogged filters can add 10–15% to runtime. Clean monthly in the dusty
+  season.
+- Outdoor coil fins packed with lint and leaves do the same. A yearly
+  hose-down is cheap insurance.
+- A 1.5-ton unit serving a room that a 1-ton unit could handle will
+  short-cycle and waste energy. Right-sizing matters more than brand.
+
+When not to "optimize"
+Do not cycle the AC off for an hour in the peak if the alternative is
+cranking it to 20°C afterwards. Recovery spikes can erase the saving
+and wreck comfort. Prefer a 1°C set-point change over hard on/off.

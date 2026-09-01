@@ -1,0 +1,42 @@
+Energy Storage Optimization
+===========================
+
+A home battery is a time machine for electrons. It is not a magic
+bill-shrinker. Charge it with cheap or solar energy; discharge it into
+expensive evening hours. Anything else wastes cycle life.
+
+When a battery pays
+- Wide TOU spread (on-peak much more expensive than off-peak or solar).
+- Poor export credit, so midday surplus would otherwise be given away.
+- Frequent outages where avoided diesel / lost work has a cash value.
+
+When it does not
+- Flat tariffs and generous net metering.
+- Tiny arrays that never produce a surplus after the house load.
+- Oversized batteries that sit at 50% forever. Unused capacity still
+  ages.
+
+Dispatch rules EcoHome should follow
+1. Charge from PV after must-run house load is met, up to a 90–95% cap.
+2. Hold the battery through the afternoon unless an outage is forecast.
+3. Discharge into 18:00–23:00 on-peak, covering HVAC and cooking.
+4. Reserve 20–30% state of charge for an evening grid blink.
+5. Do not charge from on-peak grid. Do not discharge into off-peak
+   just to "use the battery".
+
+Pairing with an EV
+The traction battery is also storage, but it leaves the driveway.
+Never flatten the home battery to charge the car at 21:00; charge the
+car at noon instead. Use the home battery for the immovable evening
+peak.
+
+Cycle life
+Most LFP packs are happiest between 20 and 90%. Daily 0–100% cycles
+for a few rupees of extra arbitrage are a bad trade. EcoHome should
+optimise net cost *including* a small wear cost per kWh cycled
+(typically ₹0.5–1.5/kWh-cycled depending on pack price and warranty).
+
+ROI sketch
+A 5 kWh usable pack that shifts 4 kWh/day from ₹12.40 to solar-equivalent
+₹0–₹5.50 saves roughly ₹25–₹50/day. Capex recovery is measured in
+years, not months. Be honest about that when a user asks.

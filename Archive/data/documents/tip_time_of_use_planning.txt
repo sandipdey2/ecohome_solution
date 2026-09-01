@@ -1,0 +1,38 @@
+Time-of-Use Planning
+====================
+
+A TOU tariff is a price signal. The EcoHome advisor reads it the same
+way a trader reads a market: buy (import) when the price is low or
+when on-site generation makes the *net* price low; avoid importing
+when the price is high and solar is gone.
+
+Typical residential TOU shape used by this project
+- Off-peak  23:00–06:00   cheapest import, no solar
+- Shoulder  06:00–10:00 and 16:00–18:00
+- Solar window 10:00–16:00  mid-rate but high PV, so *net* cost is low
+- On-peak   18:00–23:00   most expensive, zero PV
+
+Weekend rates are often discounted. If they are, dump deferrable work
+(laundry marathon, EV "catch-up" charge, pool extra filtration) onto
+Saturday late night / Sunday morning.
+
+How to plan a day
+1. Pull the tariff table and mark on-peak hours as red.
+2. Pull the weather / irradiance forecast and mark high-PV hours as green.
+3. Place flexible loads on green first, leftover red-avoiding hours
+   second (overnight off-peak).
+4. Leave HVAC and cooking where life needs them, but pre-condition
+   thermally so the expensive hours are coasting hours.
+
+Worked dishwasher example
+A 1.4 kWh eco cycle.
+- On-peak 18:30 start: 1.4 × 12.40 = ₹17.36
+- Off-peak 23:30 start: 1.4 × 5.50 = ₹7.70
+- Midday solar (net import ≈ 0.2 kWh): ≈ ₹1.60
+Saving versus the naïve evening start: ₹10–₹16 per run. At one run a
+day that is ₹300–₹480/month from a single appliance.
+
+Demand charges
+Some commercial and a few residential tariffs add a per-kW peak demand
+charge. In that world, never start the EV, water heater and dryer in
+the same 15-minute interval. EcoHome's scheduler staggers them.

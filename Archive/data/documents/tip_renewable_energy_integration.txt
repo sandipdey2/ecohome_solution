@@ -1,0 +1,35 @@
+Renewable Energy Integration
+============================
+
+Rooftop solar only cuts the bill if the house actually uses the electrons.
+Integration means matching load shape to generation shape, then deciding
+what to do with the leftovers.
+
+Self-consumption hierarchy
+1. Serve must-run loads (fridge, standby, daytime HVAC).
+2. Pull flexible loads under the solar curve (EV, pump, geyser, laundry).
+3. Store the remainder in a battery if you have one.
+4. Export what is left. Export credits are almost always worse than
+   avoided retail import.
+
+Sizing sanity
+A 5 kW array on a Bengaluru roof yields roughly 18–24 kWh on a clear
+day and 8–14 kWh in the monsoon. If daily flexible load is 20 kWh of
+EV charging, the array cannot cover it every day — overnight off-peak
+is the planned overflow, not a failure.
+
+Inverter and export limits
+Some feeders cap export. When that happens, self-consumption is not
+just cheaper, it is the only way to keep producing. EcoHome should
+prefer on-site use even more aggressively in export-limited homes.
+
+Other renewables
+A small balcony wind turbine in a dense city is almost never worth the
+structural hassle. A solar water heater (thermal, not PV) is the
+forgotten renewable and pairs beautifully with a PV-timed geyser that
+now only trims the tank.
+
+Grid interaction
+Net metering, gross metering and behind-the-meter tariffs change the
+math. The advisor assumes retail import is expensive and export is
+cheap. If your utility flips that, say so in the home profile.

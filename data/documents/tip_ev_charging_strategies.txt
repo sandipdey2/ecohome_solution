@@ -1,0 +1,38 @@
+EV Charging Strategies for Solar Homes
+======================================
+
+Electric vehicles are the largest flexible load in a modern household.
+A 40 kWh daily top-up at an on-peak tariff of ₹12.40/kWh costs ₹496.
+The same energy at an off-peak tariff of ₹5.50 costs ₹220. If half of
+that energy is supplied by rooftop solar that would otherwise be exported
+at a low feed-in rate, the cash saving is even larger.
+
+Preferred charging order
+1. Midday solar surplus (typically 10:00–15:00). Cap charge power so the
+   house still covers HVAC and other daytime loads; leftover PV goes to
+   the car.
+2. Overnight off-peak (23:00–06:00). Use a scheduled charge in the car
+   or wallbox. This is the default when the next-day forecast is cloudy
+   or the car must be ready before sunrise.
+3. Never charge on a timer that starts at 18:00–22:00 unless the battery
+   is critically low. That window is both expensive and solar-empty.
+
+Practical settings
+- Target a 20–80% daily window rather than 0–100%. Cycle life improves
+  and you keep a buffer for an unplanned evening trip.
+- If the wallbox supports solar-following (or EcoHome can dispatch it),
+  enable it on weekdays you work from home.
+- Preconditioning the cabin while plugged in uses grid/solar energy
+  instead of the traction battery and can be timed for off-peak.
+
+Safety and grid etiquette
+- Prefer 3.3 kW (16 A single-phase) scheduled charging over an
+  opportunistic 7 kW blast during peak, unless solar surplus is high.
+- On a feeder with many EVs, staggering start minutes (e.g. 23:12 rather
+  than 23:00) reduces local voltage dip.
+
+Worked example
+Charge 18 kWh. On-peak cost = 18 × 12.40 = ₹223. Off-peak cost =
+18 × 5.50 = ₹99. Solar-covered 10 kWh + 8 kWh off-peak ≈ ₹44. Daily
+saving versus naïve evening charging: ₹124–₹179, or ₹3,700–₹5,400/month
+for a daily commuter.

@@ -1,0 +1,31 @@
+Outage and Backup Planning
+==========================
+
+Optimization stops being theoretical when the feeder blinks. A useful
+energy advisor plans for the outage, not just the tariff.
+
+Before the blink
+- If a storm or load-shed window is forecast, pre-cool the house and
+  top up the EV only if the car will stay home as a possible backup.
+- Bring the home battery to the reserve floor plus a buffer.
+- Finish wet-appliance cycles while the grid is up. A dishwasher that
+  stops mid-cycle is a nuisance; a geyser that finishes is free comfort.
+
+During an outage
+- Drop HVAC first. It is the largest load and comfort lasts 30–90
+  minutes if you pre-cooled.
+- Keep the fridge and a few lights. Kill the pool pump and laundry.
+- If you have a hybrid inverter, do not let an EV charger that is
+  still "on" yank the battery dead in twenty minutes.
+
+After restoration
+- Stagger restarts. If every AC and the geyser and the EV wake at
+  once you may trip the main or eat a demand spike.
+- EcoHome should recommend a 10–15 minute stagger: fridge already on,
+  HVAC at +1°C for 20 minutes, then geyser, then EV if solar is up.
+
+Diesel and inverter hygiene
+A portable genset that feeds the whole house including the AC is an
+expensive habit. Limit backup to essentials and treat diesel kWh as
+several times the grid peak rate when deciding whether a pre-cool was
+worth it.

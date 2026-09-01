@@ -1,0 +1,37 @@
+Seasonal Energy Management
+==========================
+
+A plan that is perfect in April is wrong in July. EcoHome should change
+its default strategy with the season.
+
+Hot dry season (typically March–May in Bengaluru)
+- HVAC is the dominant load. Pre-cool, shade west glass, raise set-points.
+- Solar yield is excellent. Park the EV and wet appliances under noon sun.
+- Dust soiling is worst. Rinse modules monthly or yield quietly drops 10%.
+
+Southwest monsoon (typically June–September)
+- Irradiance collapses on many days. Do not bet the EV on midday PV;
+  default the car to overnight off-peak whenever the forecast is <300 W/m²
+  through the solar window.
+- Humidity, not temperature, drives discomfort. Use dry mode.
+- Line-drying clothes stops working. If the dryer must run, keep it
+  off-peak.
+- Check that roof drainage around the array is clear. Standing water
+  near DC isolators is a safety issue, not an optimization issue.
+
+Cooler / winter-ish window (December–January)
+- HVAC load drops. This is when phantom loads and the geyser become
+  visible on the bill.
+- Solar angles are lower. The plateau shortens; start flexible loads
+  closer to 11:00 than 9:00.
+- Good month for maintenance: coil clean, filter stock, inverter logs.
+
+Festival and guest weeks
+Occupancy doubles, cooking doubles, the "away" HVAC scene is useless.
+Accept the bill spike; optimize the flexible loads around it rather
+than fighting hospitality.
+
+Seasonal checklist
+- Update the geyser timer when mornings get colder.
+- Revisit pool-pump hours when water warms and algae risk rises.
+- Recalibrate any "solar following" threshold after a module clean.
